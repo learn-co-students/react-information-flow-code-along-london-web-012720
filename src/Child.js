@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
-import { getRandomColor } from './randomColorGenerator.js'
+import React, { Component } from "react";
 
 class Child extends Component {
   render() {
     return (
       <div
+        onClick={this.props.handleClick}
         className="child"
-        style={{backgroundColor: "#FFF"}}
+        style={{ backgroundColor: "#FFF" }}
       ></div>
-    )
+    );
   }
 }
 
-export default Child
+export default Child;
