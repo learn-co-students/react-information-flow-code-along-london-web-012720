@@ -1,0 +1,8 @@
+We already know, how to use props to pass information down from parent to child. But how would we do the reverse? 
+
+In order to propagate information in the opposite direction, we can send a callback functions as a prop from the parent component to its child.
+
+This allows the callback to be owned by a different component than the one invoking it. 
+
+Once invoked, the callback can send data to or change state in the parent component that owns it.
+
